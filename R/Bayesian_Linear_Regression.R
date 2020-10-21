@@ -8,6 +8,8 @@
 #' @param a A number of hyperparameter for the gamma distribution.
 #' @param b A number of hyperparameter for the gamma distribution.
 #' @return A list with the estimated coefficients and standard deviations of the model from the Classical and Bayesian approach
+#' @author Camilo Gonzalez <cigonzalez2@uc.cl>
+#' @references L. Fahrmeir, T. Kneib, S. Lang, and B. Marx, Regression: Models, Methods and Applications. Springer-Verlag GmbH, 2013.
 #' @examples
 #' # Noninformative Prior (same results Bayesian and Classical Linear Regression)
 #' m <- matrix(0, nrow = 2, ncol = 1)
@@ -62,6 +64,8 @@ posterior_nig <- function(formula, data, m, M, a, b){
 #' @param a A number of hyperparameter for the gamma distribution.
 #' @param b A number of hyperparameter for the gamma distribution.
 #' @return A list with the estimated coefficients and standard deviations of the model from the Classical and Bayesian approach
+#' @author Camilo Gonzalez <cigonzalez2@uc.cl>
+#' @references L. Fahrmeir, T. Kneib, S. Lang, and B. Marx, Regression: Models, Methods and Applications. Springer-Verlag GmbH, 2013.
 #' @examples
 #' a <- 0.0001
 #' b <- 0.0001
@@ -114,6 +118,8 @@ zellner <- function(formula, data, m1 = m1, g = g, a = a, b = b){
 #'
 #' @param formula A string fromula.
 #' @param data A data frame with your data including response.
+#' @author Camilo Gonzalez <cigonzalez2@uc.cl>
+#' @references L. Fahrmeir, T. Kneib, S. Lang, and B. Marx, Regression: Models, Methods and Applications. Springer-Verlag GmbH, 2013.
 #' @examples
 #' test <- no_info(formula = 'dist ~ speed', data = cars)
 #' test$classic_coef

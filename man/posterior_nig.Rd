@@ -44,3 +44,9 @@ test$classic_sigma
 test$bayesian_coef
 test$bayesian_sigma
 }
+\references{
+L. Fahrmeir, T. Kneib, S. Lang, and B. Marx, Regression: Models, Methods and Applications. Springer-Verlag GmbH, 2013.
+}
+\author{
+Camilo Gonzalez <cigonzalez2@uc.cl>
+}
